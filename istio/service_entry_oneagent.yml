@@ -108,8 +108,7 @@ spec:
   - match:
     - port: 443
       sni_hosts:
-      - sg-us-east-1-52-1-155-152-prod-us-east-cluster-2.live.ruxit.com
-        port: 
+      - sg-us-east-1-52-1-155-152-prod-us-east-cluster-2.live.ruxit.com 
     route:
     - destination:
         host: sg-us-east-1-52-1-155-152-prod-us-east-cluster-2.live.ruxit.com
